@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5110112299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "A11",
+        "description": "",
+        "id": "a1;a11",
+        "after": [
+          {
+            "result": {
+              "duration": 2360130458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11375407384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the page [http://www.google.com] is loaded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinitions.openPage(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@parallel"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3233739745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.before()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "A12",
+        "description": "",
+        "id": "a1;a12",
+        "after": [
+          {
+            "result": {
+              "duration": 1782751836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9470411317,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the page [http://www.apple.com] is loaded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.apple.com",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinitions.openPage(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@parallel"
+          }
+        ]
+      }
+    ],
+    "name": "A1",
+    "description": "",
+    "id": "a1",
+    "keyword": "Feature",
+    "uri": "C:/Users/ThiyagaN/Documents/EclipseNeon2/eclipse/workspace/pocParallel/src/test/resources/features/parallel1.feature"
+  }
+]
